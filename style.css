@@ -1,0 +1,159 @@
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+img{
+    border-radius: 15px;
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+.header .right-links{
+    margin-left: auto;
+}
+
+.header .left{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+ul{
+   display: flex;
+   list-style: none;
+   gap: 16px;
+   margin-right: 100px;
+   flex-wrap: wrap; 
+   font-size: 18px;
+}
+
+a{
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding-inline: 30px;
+    padding-block: 5px;
+    font-size: 12px;
+}
+
+.content .sub_title{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+    padding: 50px;
+}
+
+.intro .item1{
+    margin-right: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info .subtitle{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.info .cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card img{
+    border: 3px solid #3882F6;
+    height: 300px;
+}
+
+.card .text{
+    text-align: center;
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote .quote_speaker{
+    font-weight: bold;
+    
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.signup .modal{
+    background-color: #3882F6;
+    padding: 25px;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.modal .heading{
+    font-weight: bold;
+    color: white;
+}
+
+.heading .sub_text{
+    font-weight: 100;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .head{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    width: 500px;
+}
+
